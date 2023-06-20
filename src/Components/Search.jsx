@@ -20,6 +20,7 @@ export default function Search() {
     }, [searchTerm, currentPage])
     
     function handleInputChange(event) {
+        event.preventDefault()
         setSearchTerm(prevTerm => event.target.value)
         setCurrentPage(prevPage => 1)
     }
@@ -53,7 +54,7 @@ export default function Search() {
             </form>
 
             {resultCards.length > 0 && 
-                <p>Roll {currentPage} of {pageCount}</p>
+                <p id="page-counter">Roll {currentPage} of {pageCount}</p>
             }
 
             <section id="results">
