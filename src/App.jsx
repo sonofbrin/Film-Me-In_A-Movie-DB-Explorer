@@ -1,5 +1,6 @@
 import Header from "./Components/Header"
 import Search from "./Components/Search"
+import Footer from "./Components/Footer"
 
 export default function App() {
 
@@ -7,6 +8,7 @@ export default function App() {
     <>
       <Header />
       <Search />
+      <Footer />
     </>
   )
 }

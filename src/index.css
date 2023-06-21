@@ -22,6 +22,7 @@ h1 {
   display: flex;
   margin-top: auto;
   height: 1rem;
+  white-space: pre-wrap;
 }
 
 main {
@@ -77,22 +78,39 @@ button, input {
   border-radius: 2px;
 }
 
+footer {
+  padding: 5px;
+  font-style: italic;
+  font-size: small;
+}
+
 @media only screen and (max-width: 768px) {
   header, #tmdb-attrib, #results, .dot-row {
     flex-direction: column;
   }
 
-  header, #tmdb-attrib {
+  header {
     align-items: center;
+    height: 100px;
   }
 
   h1 {
-    font-size: 4em;
-    margin: auto;
+    font-size: 3em;
+    margin: 0;
   }
 
-  #results {
-    align-items: center;
+  #tmdb-attrib {
+    margin-top: 0;
+    white-space: nowrap;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  input {
+    width: 70%;
   }
 
   .card {
@@ -116,5 +134,9 @@ button, input {
     height: 8%;
     width: 50%;
     border-radius: 3px;
+  }
+
+  footer {
+    text-align: center;
   }
 }

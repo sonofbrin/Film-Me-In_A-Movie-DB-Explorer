@@ -5,6 +5,30 @@ export const noResult = {
     "total_results": 0
 }
 
+export const resultObject = {
+    "adult": false,
+    "backdrop_path": "/iNguJxLdfL1xxGXMt1xaHiCD1jb.jpg",
+    "genre_ids": [
+        28,
+        12,
+        16,
+        10751,
+        878,
+        14
+    ],
+    "id": 19325,
+    "original_language": "en",
+    "original_title": "Bionicle: Mask of Light",
+    "overview": "With darkness encroaching on the island of Mata Nui, the only hope for the survival of the islanders rests with two Matoran villagers, who must find the seventh Toa and deliver to him the fabled Mask of Light.",
+    "popularity": 10.827,
+    "poster_path": "/tWH06orrlNNLhnwepGK6xXeCMJH.jpg",
+    "release_date": "2003-09-15",
+    "title": "Bionicle: Mask of Light",
+    "video": false,
+    "vote_average": 6.166,
+    "vote_count": 145
+}
+
 export const bionicleResults = {
     "page": 1,
     "results": [

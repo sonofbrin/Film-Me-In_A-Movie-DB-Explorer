@@ -4,7 +4,7 @@ export default function Header() {
             <h1>Film Me In!</h1>
             <section id="tmdb-attrib">
                 <span>A movie explorer powered by </span>
-                <img src="../../tmdb-logo.svg"></img>
+                <img src="../../public/tmdb-logo.svg" alt="TMDB Logo"></img>
             </section>
         </header>
     )

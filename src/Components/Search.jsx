@@ -33,6 +33,7 @@ export default function Search() {
         setCurrentPage(prevPage => prevPage - 1)
     }
     
+    // Generate card components from result data
     const resultCards = searchResults.map(result => (
         <MovieCard
             key={result.id}
@@ -41,7 +42,7 @@ export default function Search() {
     ))
 
     return (
-        <main className="search">
+        <main>
             <form>
                 <input 
                     type="text"
@@ -58,7 +59,7 @@ export default function Search() {
             }
 
             <section id="results">
-                {resultCards.length > 0 || !searchTerm ? resultCards : "All out of film!"}
+                {resultCards.length > 0 || !searchTerm ? resultCards : "No film to be found!"}
             </section>
         </main>
     )
