@@ -4,7 +4,7 @@ A React front-end for exploring the movie titles hosted on The Movie Database, u
 
 View the current deployment [here](https://sonofbrin.github.io/Film-Me-In_A-Movie-DB-Explorer/)!
 
-![](https://github.com/sonofbrin/Film-Me-In_A-Movie-DB-Explorer/blob/52fb3ec852006fb87f2294383b04a15bc1133b21/public/fmi_screencap1.png)
+![](https://github.com/sonofbrin/Film-Me-In_A-Movie-DB-Explorer/blob/d7ae3c570b3c4272ba9c03182a4c19c09679eed4/public/fmi_screencap1.png)
 
 ## Usage
 
